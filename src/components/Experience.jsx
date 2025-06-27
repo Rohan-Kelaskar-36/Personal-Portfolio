@@ -22,11 +22,10 @@ const Experience = () => (
         <div className="bg-white p-6 rounded-lg shadow">
           <h3 className="text-2xl font-semibold text-gray-800">Full Stack Developer Intern</h3>
           <p className="text-gray-600 italic">Edunet Foundation, in collaboration with EY GDS & AICTE   · Feb 2025 – Mar 2025</p>
-          <ul className="mt-3 list-disc list-inside text-gray-700 leading-relaxed">
-            <li>Delivered full stack MERN-based apps like book stores, auction systems, and billing tools.</li>
-            <li>Handled deployment using Vercel, Render, and Netlify with CI/CD pipelines.</li>
-            <li>Worked directly with clients to gather requirements and deliver MVPs.</li>
-          </ul>
+            <ul className="mt-3 list-disc list-inside text-gray-700 leading-relaxed">
+  <li>Built "Vintage Bids" auction web app using the MERN stack and Bootstrap.</li>
+  <li>Developed core features like bidding system, user authentication, and real-time updates.</li>
+</ul>
         </div>
 
       </div>

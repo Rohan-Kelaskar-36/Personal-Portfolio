@@ -3,7 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
+  "homepage": "https://github.com/Rohan-Kelaskar-36/Personal-Portfolio/",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
