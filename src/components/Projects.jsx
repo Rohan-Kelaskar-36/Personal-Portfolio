@@ -52,7 +52,7 @@ const Projects = () => (
     className="inline-flex items-center gap-2 px-6 py-2 bg-black text-white rounded hover:bg-gray-800 transition text-lg"
   >
     <FaGithub className="text-2xl" />
-    View on GitHub
+    View More on GitHub
   </Link>
 </div>
 

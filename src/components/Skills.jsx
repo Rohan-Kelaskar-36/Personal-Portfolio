@@ -53,11 +53,28 @@ const Skills = () => (
       <div className="mt-8">
         <h3 className="text-xl mb-2">Check out my LeetCode profile:</h3>
         <Link to="https://leetcode.com/u/Rohan3602/" target="_blank" rel="noreferrer">
-          <button className="px-6 py-2 bg-indigo-500 hover:bg-indigo-600 text-white rounded-md shadow">
+          <button className="px-6 py-2 bg-indigo-500 hover:bg-green-600 text-white rounded-md shadow">
             Rohan Kelaskar
           </button>
         </Link>
       </div>
+
+
+
+      {/* download my resume */}
+  <div className="mt-8">
+  <h3 className="text-xl mb-2">Download My Resume:</h3>
+  <a
+   href="/Personal-Portfolio/Rohan_kelaskar_MERN.pdf"
+    download
+    className="px-6 py-2 bg-green-500 hover:bg-indigo-600 text-white rounded-md shadow"
+  >
+    Download Resume
+  </a>
+</div>
+
+
+
     </div>
   </section>
 );
