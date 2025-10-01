@@ -2,13 +2,13 @@ import React from 'react';
 import { FaGithub } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 const Projects = () => (
-  <section id="projects" className="min-h-screen bg-white py-20 px-8">
-    <div className="max-w-5xl mx-auto">
-      <h2 className="text-4xl font-bold mb-8 text-center">Projects</h2>
+  <section id="projects" className="min-h-screen bg-gradient-to-b from-white to-slate-50 py-20 px-6 sm:px-8">
+    <div className="max-w-6xl mx-auto">
+      <h2 className="text-4xl font-extrabold mb-10 text-center tracking-tight">Projects</h2>
 
-      <div className="grid md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
         {/* Project 1 */}
-        <div className="bg-gray-100 p-6 rounded shadow">
+        <div className="bg-white p-6 rounded-2xl shadow-sm border border-black/5 hover:shadow-md transition">
           <h3 className="text-xl font-semibold mb-2">Hire Connect</h3>
           <p className="text-gray-700 mb-2">
           Developed a School & College ERP system with modules for ATS-powered resume scanning, job postings, student management, and 
@@ -20,7 +20,7 @@ const Projects = () => (
 
 
 
-        <div className="bg-gray-100 p-6 rounded shadow">
+        <div className="bg-white p-6 rounded-2xl shadow-sm border border-black/5 hover:shadow-md transition">
           <h3 className="text-xl font-semibold mb-2">GROOVYBILLS – MULTI-STORE BILLING SOFTWARE</h3>
           <p className="text-gray-700 mb-2">
           Built Groovy Bills, a multi-store MERN-based billing application with role-based access (Admin, Cashier, Manager), improving sales 
@@ -42,7 +42,7 @@ management efficiency.          </p>
 
 
 
-        <div className="bg-gray-100 p-6 rounded shadow">
+        <div className="bg-white p-6 rounded-2xl shadow-sm border border-black/5 hover:shadow-md transition">
           <h3 className="text-xl font-semibold mb-2">Vintage Bids</h3>
           <p className="text-gray-700 mb-2">
             A feature-rich auction platform where users can bid on vintage collectibles.
@@ -53,7 +53,7 @@ management efficiency.          </p>
         </div>
 
         {/* Project 2 */}
-        <div className="bg-gray-100 p-6 rounded shadow">
+        <div className="bg-white p-6 rounded-2xl shadow-sm border border-black/5 hover:shadow-md transition">
           <h3 className="text-xl font-semibold mb-2">Book Aura</h3>
           <p className="text-gray-700 mb-2">
             An online bookstore application that allows users to browse, search books with a responsive UI and secure authentication.
@@ -78,12 +78,12 @@ management efficiency.          </p>
       {/* GitHub Button */}
     
 
-<div className="mt-10 text-center">
+<div className="mt-12 text-center">
   <Link
     to="https://github.com/Rohan-Kelaskar-36"
     target="_blank"
     rel="noopener noreferrer"
-    className="inline-flex items-center gap-2 px-6 py-2 bg-black text-white rounded hover:bg-gray-800 transition text-lg"
+    className="inline-flex items-center gap-2 px-7 py-3 bg-black text-white rounded-xl hover:bg-gray-800 transition text-lg shadow-sm"
   >
     <FaGithub className="text-2xl" />
     View More on GitHub

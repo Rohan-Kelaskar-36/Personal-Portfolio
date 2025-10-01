@@ -4,14 +4,14 @@ const Experience = () => {
   const baseUrl = import.meta.env.BASE_URL || '/';
 
   return (
-    <section id="experience" className="min-h-screen bg-gray-100 py-20 px-8">
-      <div className="max-w-5xl mx-auto">
-        <h2 className="text-4xl font-bold mb-12 text-center">Experience</h2>
+    <section id="experience" className="min-h-screen bg-gradient-to-b from-white to-slate-50 py-20 px-6 sm:px-8">
+      <div className="max-w-6xl mx-auto">
+        <h2 className="text-4xl font-extrabold mb-12 text-center tracking-tight">Experience</h2>
 
         <div className="space-y-8">
 
           {/* Experience 1 */}
-          <div className="bg-white p-6 rounded-lg shadow">
+          <div className="bg-white p-6 rounded-2xl shadow-sm border border-black/5 hover:shadow-md transition">
             <h3 className="text-2xl font-semibold text-gray-800">Frontend Developer Intern</h3>
             <p className="text-gray-600 italic">Datzon Technologies · June 2025 – Present</p>
             <ul className="mt-3 list-disc list-inside text-gray-700 leading-relaxed">
@@ -32,7 +32,7 @@ const Experience = () => {
           </div>
 
           {/* Experience 2 */}
-          <div className="bg-white p-6 rounded-lg shadow">
+          <div className="bg-white p-6 rounded-2xl shadow-sm border border-black/5 hover:shadow-md transition">
             <h3 className="text-2xl font-semibold text-gray-800">Full Stack Developer Intern</h3>
             <p className="text-gray-600 italic">Edunet Foundation, in collaboration with EY GDS & AICTE   · Feb 2025 – Mar 2025</p>
               <ul className="mt-3 list-disc list-inside text-gray-700 leading-relaxed">
