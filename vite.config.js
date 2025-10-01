@@ -3,7 +3,8 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 
-// vite.config.js
-export default {
-  base: "/Personal-Portfolio/", // ⚠️ replace with your GitHub repo name
-};
+// Render deploy: serve at root path
+export default defineConfig({
+  plugins: [react()],
+  base: '/',
+});
