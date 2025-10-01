@@ -9,7 +9,7 @@ const Projects = () => (
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
         {/* Project 1 */}
         <div className="bg-white p-6 rounded-2xl shadow-sm border border-black/5 hover:shadow-md transition">
-          <h3 className="text-xl font-semibold mb-2">Hire Connect</h3>
+          <h3 className="text-xl font-semibold mb-2">HIRE CONNECT - COLLEGE PLACEMENT PORTAL</h3>
           <p className="text-gray-700 mb-2">
           Developed a School & College ERP system with modules for ATS-powered resume scanning, job postings, student management, and 
           placement tracking.           </p>
@@ -43,7 +43,7 @@ management efficiency.          </p>
 
 
         <div className="bg-white p-6 rounded-2xl shadow-sm border border-black/5 hover:shadow-md transition">
-          <h3 className="text-xl font-semibold mb-2">Vintage Bids</h3>
+          <h3 className="text-xl font-semibold mb-2">VINTAGE BIDS - AN ANTIQUE ONLINE AUCTION WEB APPLICATION</h3>
           <p className="text-gray-700 mb-2">
             A feature-rich auction platform where users can bid on vintage collectibles.
           </p>
@@ -54,7 +54,7 @@ management efficiency.          </p>
 
         {/* Project 2 */}
         <div className="bg-white p-6 rounded-2xl shadow-sm border border-black/5 hover:shadow-md transition">
-          <h3 className="text-xl font-semibold mb-2">Book Aura</h3>
+          <h3 className="text-xl font-semibold mb-2">BOOK AURA - ONLINE BOOK STORE</h3>
           <p className="text-gray-700 mb-2">
             An online bookstore application that allows users to browse, search books with a responsive UI and secure authentication.
           </p>
@@ -65,7 +65,7 @@ management efficiency.          </p>
 
         {/* Project 3 */}
         <div className="bg-gray-100 p-6 rounded shadow">
-          <h3 className="text-xl font-semibold mb-2">Know Weather</h3>
+          <h3 className="text-xl font-semibold mb-2">KNOW WEATHER - KNOW YOUR CITY WEATHER</h3>
           <p className="text-gray-700 mb-2">
             Deployed the "Know Weather" web app to provide real-time weather information to users.
           </p>

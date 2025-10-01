@@ -81,7 +81,7 @@ const Skills = () => (
   <div className="mt-8">
   <h3 className="text-xl mb-2">Download My Resume:</h3>
   <a
-   href="/Personal-Portfolio/Rohan_kelaskar_MERN.pdf"
+   href="/Rohan_kelaskar_Software_Developer.pdf"
     download
     className="px-6 py-2 bg-green-500 hover:bg-indigo-600 text-white rounded-md shadow"
   >
