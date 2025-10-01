@@ -9,12 +9,46 @@ const Projects = () => (
       <div className="grid md:grid-cols-2 gap-6">
         {/* Project 1 */}
         <div className="bg-gray-100 p-6 rounded shadow">
+          <h3 className="text-xl font-semibold mb-2">Hire Connect</h3>
+          <p className="text-gray-700 mb-2">
+          Developed a School & College ERP system with modules for ATS-powered resume scanning, job postings, student management, and 
+          placement tracking.           </p>
+          <p className="text-sm text-gray-600">
+            <strong>Tech Stack:</strong>  TypeScript, Express.js, Mongoose, bcryptJs, Cors, Google generative AI, Cheerio, cloudinary, morgan, multer, nodemailer. 
+          </p>
+        </div>
+
+
+
+        <div className="bg-gray-100 p-6 rounded shadow">
+          <h3 className="text-xl font-semibold mb-2">GROOVYBILLS – MULTI-STORE BILLING SOFTWARE</h3>
+          <p className="text-gray-700 mb-2">
+          Built Groovy Bills, a multi-store MERN-based billing application with role-based access (Admin, Cashier, Manager), improving sales 
+management efficiency.          </p>
+          <p className="text-sm text-gray-600">
+            <strong>Tech Stack:</strong>  : React.js, Express.js, Mongoose, bcryptJs, Cors, nodemailer, axios, Tailwind CSS,  js-pdf, Gemini API. 
+          </p>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div className="bg-gray-100 p-6 rounded shadow">
           <h3 className="text-xl font-semibold mb-2">Vintage Bids</h3>
           <p className="text-gray-700 mb-2">
             A feature-rich auction platform where users can bid on vintage collectibles.
           </p>
           <p className="text-sm text-gray-600">
-            <strong>Tech Stack:</strong> React, Node.js, Express, MongoDB, Bootstrap
+            <strong>Tech Stack:</strong> React, Node.js, Express, MongoDB, Bootstrap,nodemailer
           </p>
         </div>
 

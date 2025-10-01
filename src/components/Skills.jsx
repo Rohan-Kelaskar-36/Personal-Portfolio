@@ -21,13 +21,29 @@ const Skills = () => (
         <h3 className="text-2xl font-semibold mb-4 text-left">Web Development</h3>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {[
-            'HTML5', 'CSS3', 'React.js', 'Tailwind CSS', 'Bootstrap',
-            'Node.js','Express.js', 'MongoDB', 'MySQL', 'Postman', 'RESTful APIs','Responsive Design'
+            'HTML5', 'CSS3', 'React.js', 'Tailwind CSS', 'Bootstrap','TypeScript',
+            'Node.js','Express.js', 'Postman', 'RESTful APIs','Responsive Design'
           ].map((tech) => (
             <div key={tech} className="bg-white shadow p-4 rounded">{tech}</div>
           ))}
         </div>
       </div>
+
+
+
+      <div className="mb-10">
+        <h3 className="text-2xl font-semibold mb-4 text-left">Database</h3>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          {[
+            'MongoDB', 'MySQL'
+          ].map((tech) => (
+            <div key={tech} className="bg-white shadow p-4 rounded">{tech}</div>
+          ))}
+        </div>
+      </div>
+
+
+
 
       {/* Version Control */}
       <div className="mb-10">
