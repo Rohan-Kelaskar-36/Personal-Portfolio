@@ -21,9 +21,9 @@ const Projects = () => (
 
 
         <div className="bg-white p-6 rounded-2xl shadow-sm border border-black/5 hover:shadow-md transition">
-          <h3 className="text-xl font-semibold mb-2">GROOVYBILLS – MULTI-STORE BILLING SOFTWARE</h3>
+          <h3 className="text-xl font-semibold mb-2">PROBILLS – MULTI-STORE BILLING SOFTWARE</h3>
           <p className="text-gray-700 mb-2">
-          Built Groovy Bills, a multi-store MERN-based billing application with role-based access (Admin, Cashier, Manager), improving sales 
+          Built Pro Bills, a multi-store MERN-based billing application with role-based access (Admin, Cashier, Manager), improving sales 
 management efficiency.          </p>
           <p className="text-sm text-gray-600">
             <strong>Tech Stack:</strong>  : React.js, Express.js, Mongoose, bcryptJs, Cors, nodemailer, axios, Tailwind CSS,  js-pdf, Gemini API. 
