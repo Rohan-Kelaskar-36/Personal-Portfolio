@@ -13,7 +13,7 @@ const Experience = () => {
           {/* Experience 1 */}
           <div className="bg-white p-6 rounded-2xl shadow-sm border border-black/5 hover:shadow-md transition">
             <h3 className="text-2xl font-semibold text-gray-800">Frontend Developer Intern</h3>
-            <p className="text-gray-600 italic">Datzon Technologies · June 2025 – Present</p>
+            <p className="text-gray-600 italic">Datzon Technologies · June 2025 – October 2025</p>
             <ul className="mt-3 list-disc list-inside text-gray-700 leading-relaxed">
               <li>Built responsive UI components using React.js and Tailwind CSS.</li>
               <li>Collaborated on dashboard and modal systems using reusable layouts.</li>
