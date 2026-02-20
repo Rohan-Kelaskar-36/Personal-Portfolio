@@ -26,7 +26,16 @@ const Experience = () => {
                 rel="noopener noreferrer"
                 className="inline-block text-indigo-600 hover:text-indigo-700 underline"
               >
-                View Certificate
+                View Offer Certificate
+              </a>
+              <br/>
+              <a
+                href={`${baseUrl}Datzon%20Internship2.pdf`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block text-indigo-600 hover:text-indigo-700 underline"
+              >
+                View Completion Certificate
               </a>
             </div>
           </div>
