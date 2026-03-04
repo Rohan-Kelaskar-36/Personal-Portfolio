@@ -158,12 +158,12 @@ const Experience = () => {
               </p>
               <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-slate-300">
                 <li>
-                  Built &quot;Vintage Bids&quot; auction web app using the MERN
+                  Built web app using the MERN
                   stack and Bootstrap.
                 </li>
                 <li>
-                  Developed core features like bidding system, user
-                  authentication, and real-time updates.
+                  Developed core features like user
+                  authentication,responsive UI and building API.
                 </li>
               </ul>
               <div className="mt-5">

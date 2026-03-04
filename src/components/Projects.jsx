@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
-import { Code2, Layers3 } from "lucide-react";
+import { Code2, Layers3,ExternalLink } from "lucide-react";
 import { Button } from "./ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 
@@ -57,9 +57,7 @@ const Projects = () => (
         className="mb-10 flex flex-col items-center justify-between gap-6 md:mb-12 md:flex-row"
       >
         <div className="space-y-3 text-center md:text-left">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-fuchsia-400">
-            Case Studies
-          </p>
+          
           <h2 className="text-3xl font-bold tracking-tight text-slate-50 sm:text-4xl">
             Projects
           </h2>
@@ -132,8 +130,32 @@ const Projects = () => (
                 <span className="font-semibold text-slate-200">
                   Tech Stack:
                 </span>{" "}
+                  
+                {project.title === "KNOW WEATHER - KNOW YOUR CITY WEATHER" && (
+                  <div className="mt-3 flex flex-wrap gap-3">
+  <Button
+  asChild
+    size="sm"
+    variant="outline"
+    className="border-indigo-500/60 text-indigo-100 mt-5 mb-4"
+  >
+    <a
+      href="https://rrk-weather-app.onrender.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center gap-1"
+    >
+      <ExternalLink className="h-3 w-3" />
+      View Web App
+    </a>
+  </Button>
+  </div>
+)}
+              
                 {project.stack}
+                
               </p>
+                         
             </div>
           </Tilt>
         ))}
